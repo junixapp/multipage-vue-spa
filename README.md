@@ -17,7 +17,7 @@
 //当前编译的spa为test
 const currSPA = "test"
 ```
-
+产出的文件在`dist/test`目录下，和其他SPA相隔离。
 
 
 ### 注意事项
