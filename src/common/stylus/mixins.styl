@@ -1,0 +1,32 @@
+wh(w, h)
+  width: w
+  height: h
+
+fullwh()
+  wh(100%, 100%)
+
+fullscreen()
+  wh(100%, 100%)
+  position: fixed
+  left: 0
+  top: 0
+
+shadow-bg()
+  box-shadow: 0 0 .3em 0.1em rgba(10, 10, 10, 0.1)
+
+flex-center-h()
+  display: flex
+  justify-content: center
+
+flex-center-v()
+  flex-center-h()
+  flex-direction column
+
+flex-center()
+  flex-center-h()
+  align-items center
+
+bg-image(image)
+  background-image url(image)
+  background-size 100% 100%
+  background-repeat: no-repeat

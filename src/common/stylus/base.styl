@@ -1,0 +1,23 @@
+@import "mixins.styl"
+
+.btn-fw
+  wh(100%, auto)
+  min-width 5rem
+  background #409EFF
+  border-radius 0.3rem
+  border transparent 0
+  text-align center
+  color: #fff
+  padding 0.8rem 0
+  font-size 16px
+  line-height 16px
+  cursor pointer
+  outline none
+
+.btn-fw:hover
+  background #227aff
+
+.btn-fw:disabled
+  cursor: not-allowed
+  //pointer-events: none
+  opacity: 0.6
